@@ -25,7 +25,6 @@ int _tmain(int argc, _TCHAR* argv[])
 			Prog2::Point y;
 			
 			std::cin >> t;
-			//scanf_s("%*c", NULL);
 			fl2 = std::cin.good();
 			if (!fl2) {
 				continue;
