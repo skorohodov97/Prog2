@@ -1,8 +1,8 @@
 # Prog2
 main:
-Application.cpp 
+Application.cpp ;
 StaticLib:
 Cycle.h
-Cycle.cpp
+Cycle.cpp;
 Test:
 test.cpp
