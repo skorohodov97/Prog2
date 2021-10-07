@@ -13,7 +13,7 @@ namespace Prog2 {
 	class Cycle {
 	private:
 		Point p;
-		double a;
+		double a;//высота трактисы
 	public:
 		Cycle(double ad = 1);
 		Cycle(const Point &p0, double ad = 1);
@@ -22,7 +22,7 @@ namespace Prog2 {
 		Cycle& setA(double a0);
 		Point getP() const { return p; }
 		double getA() const { return a; }
-		double ark(double t) const; //длинна дуги
+		double ark(double t) const; //длинна дуги(t угол между касательное и XX')
 		double rad(double t) const; //радиус кривизны
 		Point f(double t) const; //координаты точки
 		double square() const { return PI * a*a / 2; }//площадь бесконечной полосы
